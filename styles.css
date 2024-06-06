@@ -12,8 +12,54 @@
 
 
 * {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family:'robotoregular';
+}
+
+.great-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--primary100);
+    align-items: center;
+}
+
+#header {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1200px;
+    color:var(--primary800);
+    font-family:'robotothin';
+    
+    
+}
+
+
+
+
+.section_with_cards {
+    border: 1px solid red;
+}
+
+.page-container {
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
 
 }
 
 
+#footer {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 1200px;
+}
