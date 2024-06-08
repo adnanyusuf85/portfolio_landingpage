@@ -8,18 +8,71 @@
     <link rel="stylesheet" href="styles.css"/>
 
 </head>
-<body>
-    <div class="great-wrapper">
+<body class="flex-column section-space">
+    <div class="great-wrapper flex-column">
 
-        <div id="header">
-            <div class="logo">logo</div>
-            <div class="topnavigation">navigation</div>
+        <div id="header" class="flex-row  width1200">
+            <img class="logo" src="./Assets/Images/logo.png"/>
+            <div class="top-navigation">
+                <ul>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="hero-section" class="width1200 flex-row">
+            <div id="hero-content">
+                <div class="text-block">
+                <p class="large-font  hero-title">Crafting Exceptional User Experiences</p>
+                <p class="normal-font hero-text font-white">Transform your digital presence with intuitive, innovative, 
+                    and visually stunning user interfaces. I blend creativity with functionality to bring 
+                    your ideas to life, ensuring a seamless and engaging experience for your users.</p>
+                </div>
+                <a href=""><div class="button-large">Place Order</div></a>
+            </div>
+                <img id="hero-image" src="./Assets/Images/hero_image.png"/>
+   
+
         </div>
     </div>
 
     <div class="page-container">
         <div class="section_with_cards">
-            Services
+            <div class="section-header">
+            <p class="section-category">SERVICES</p>
+            <p class="section-title">What I provide</p>
+            </div>
+
+            <div class="section-content flex-row text-cards-gap">
+                <div class="text-card">
+                    <p class="text-card-heading">User Research & Analysis</p>
+                    <div class="text-card-content">
+                        <p>Unlock the secrets to user needs & behaviors. Our User Research & Analysis 
+                            service delves into motivations, preferences, & pain points. We use surveys, 
+                            interviews, & testing for actionable insights driving product success.</p>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <p class="text-card-heading">Wireframing & Prototyping</p>
+                    <div class="text-card-content">
+                        <p>Turn your ideas into designs with my Wireframing & Prototyping service. I create detailed wireframes & prototypes, enabling early testing & feedback for user-friendly designs aligned with your goals.</p>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <p class="text-card-heading">UI Design & Branding                    </p>
+                    <div class="text-card-content">
+                        <p>Craft a visually stunning UI with my UI Design & Branding service. I blend aesthetics with functionality to create a seamless user experience reflecting your brand's identity. Designs are beautiful and intuitive, ensuring easy navigation and delight.</p>
+                    </div>
+                </div>
+                <div class="text-card">
+                    <p class="text-card-heading">Usability Testing & Optimization</p>
+                    <div class="text-card-content">
+                        <p>Ensure top usability with my Usability Testing & Optimization service. I conduct rigorous testing to identify user journey friction points</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="case_study_scroller">
             Case Studies
@@ -33,7 +86,7 @@
     </div>
 
     <div class="great-wrapper">
-        <div id="footer">
+        <div id="footer" class="flex-row width1200">
             Footer
         </div>
     </div>
