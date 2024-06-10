@@ -71,44 +71,47 @@ line-height: 109%; /* 2.18rem */
 }
 
 .section-content {
-
+    display: flex;
 }
 .text-cards-gap{
+
     gap:1.9375rem;
 }
 .text-card {
     display: flex;
-padding: 1.6875rem 1.75rem;
-flex-direction: column;
-align-items: flex-start;
-gap: 0.9375rem;
-align-self: stretch;
-border-radius: 0.5rem;
-background: var(--primary800, #EDF3F9);
+    flex-basis: 300px;
+    padding: 1.6875rem 1.75rem;
+    flex-direction: column;
+    align-items:center;
+    gap: 0.9375rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--primary800, #EDF3F9);
 }
 
 .text-card-heading {
     color: var(--primary200, #0F3E75);
     align-self: stretch;
-font-size: 1.25rem;
-font-style: normal;
-font-weight: 700;
-line-height: 109%; /* 1.3625rem */
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109%; /* 1.3625rem */
 }
 
 .text-card-content {
     color: var(--primary200, #0F3E75);
-    width: 14.45669rem;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 1.5rem */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
 }
 
 .page-container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 #hero-section {
@@ -156,6 +159,10 @@ line-height: 150%; /* 1.5rem */
   flex-direction: row;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 .width1200 {
   max-width: 1200px;
   margin: 0 auto;
@@ -198,16 +205,16 @@ line-height: 150%; /* 1.5rem */
 
 .section-header {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
 }
 
 .section-category {
     color: var(--primary200, #0F3E75);
-font-size: 1rem;
-font-style: normal;
-font-weight: 700;
-line-height: 109%; /* 1.09rem */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109%; /* 1.09rem */
 }
